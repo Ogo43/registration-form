@@ -63,7 +63,7 @@ body {
   width: 100%;
 }
 .form-wrapper h1 {
-  margin-bottom: .8rem;
+  margin-bottom: 0.8rem;
 }
 .form-wrapper label {
   display: block;
@@ -73,7 +73,7 @@ body {
 .form-wrapper input[type="password"] {
   padding: 0.5rem 2.5rem 0.5rem 0.5rem;
   width: 100%;
-  margin: .3rem 0 .9rem;
+  margin: 0.3rem 0 0.9rem;
   border: 2px solid #ebebeb;
   outline: none;
   border-radius: 2px;
@@ -90,14 +90,14 @@ body {
   position: absolute;
   top: 22%;
   right: 10px;
-  transform: translateY(-50);
   width: 20px;
   height: 20px;
+  opacity: 0.2;
 }
-.name-icon,
-.password-icon,
-.confirm-password-icon {
-  opacity: 0.3;
+.input-group input:focus + .name-icon,
+.input-group input:focus + .password-icon,
+.input-group input:focus + .confirm-password-icon {
+  opacity: 1;
 }
 .checkbox {
   margin-right: 0.6rem;
@@ -113,4 +113,7 @@ body {
   background-color: #006aff;
   border: none;
   border-radius: 2.5px;
+}
+.submit-btn:hover {
+  background-color: #0091ff;
 }
