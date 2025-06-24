@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>Registration form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="container">
+        <div class="mid-container">
+          <div class="image-wrapper">
+            <div class="words">
+              <h1>Bring Your Music Along</h1>
+              <h3>try Unlimited</h3>
+              <div class="amount">
+                <h3>$9.99</h3>
+                <sub>/ Month</sub>
+              </div>
+            </div>
+          </div>
+
+          <form action="#" method="get" class="form-wrapper">
+            <h1>Registration Form</h1>
+            <label for="fullname">Full Name</label>
+            <div class="input-group">
+                <input
+                type="text"
+                name="fullname"
+                id="fullname"
+                placeholder="ex:Cindsey Wilson"
+              />
+              <img src="/images/name-tag.png" alt="name-icon" class="name-icon">
+            </div>
+
+            <label for="email">Your Email</label>
+            <input type="email" name="email" id="email" />
+            <label for="password">Password</label>
+            <div class="input-group">
+                <input type="password" name="password" id="password" />
+            <img src="/images/password-icon.png" alt="password-icon" class="password-icon">
+            </div>
+            <label for="confirm-password">Confirm Password</label>
+            <div class="input-group">
+                <input
+              type="password"
+              name="password"
+              id="password"
+              minlength="8"
+              maxlength="20"
+            />
+            <img src="/images/password-icon.png" alt="password-icon" class="confirm-password-icon">
+            </div>
+            <label for="checkbox"
+              ><input
+                type="checkbox"
+                name="checkbox"
+                id="checkbox"
+                class="checkbox"
+              />
+              By signing up, you agree to the <br />
+              <a href="#" class="term-service">Play Term of Service</a></label
+            >
+            <button type="submit" class="submit-btn">Register</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

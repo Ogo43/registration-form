@@ -1,0 +1,116 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(to bottom right, #00d9ff, #f6c0ff);
+  background-size: contain;
+  line-height: 1.6;
+}
+.container {
+  margin: 2rem 0 4rem;
+}
+.mid-container {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+.image-wrapper {
+  background-image: url("/images/digital-image.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 85vh;
+  border-radius: 1rem 0 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.image-wrapper .words {
+  height: 35%;
+  color: #ffffff;
+  padding: 0 2rem;
+}
+.words h1 {
+  margin-bottom: 0.1rem;
+}
+.amount {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 3rem;
+}
+.amount h3 {
+  display: inline-block;
+  font-size: 2rem;
+  margin-right: 0.5rem;
+}
+.amount sub {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.form-wrapper {
+  background-color: #ffffff;
+  border-radius: 0 1rem 1rem 0;
+  padding: 1.5rem 2rem 3rem;
+  width: 100%;
+}
+.form-wrapper h1 {
+  margin-bottom: .8rem;
+}
+.form-wrapper label {
+  display: block;
+}
+.form-wrapper input[type="text"],
+.form-wrapper input[type="email"],
+.form-wrapper input[type="password"] {
+  padding: 0.5rem 2.5rem 0.5rem 0.5rem;
+  width: 100%;
+  margin: .3rem 0 .9rem;
+  border: 2px solid #ebebeb;
+  outline: none;
+  border-radius: 2px;
+}
+.form-wrapper input::placeholder {
+  color: #d4d3d3;
+}
+.input-group {
+  position: relative;
+}
+.name-icon,
+.password-icon,
+.confirm-password-icon {
+  position: absolute;
+  top: 22%;
+  right: 10px;
+  transform: translateY(-50);
+  width: 20px;
+  height: 20px;
+}
+.name-icon,
+.password-icon,
+.confirm-password-icon {
+  opacity: 0.3;
+}
+.checkbox {
+  margin-right: 0.6rem;
+}
+.term-service {
+  margin-left: 1.6rem;
+  color: #0051ff;
+}
+.submit-btn {
+  margin-top: 1.7rem;
+  padding: 0.7rem 2.5rem;
+  color: #ffffff;
+  background-color: #006aff;
+  border: none;
+  border-radius: 2.5px;
+}
